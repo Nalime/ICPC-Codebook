@@ -1,1 +1,1 @@
-# Same as rd.sh, but with -fsanitize-undefined removed
+# Same as rd.sh, but with -fsanitize=undefined removed
