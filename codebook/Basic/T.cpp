@@ -1,22 +1,36 @@
-#pragma GCC optimize("Ofast")
 #include <bits/stdc++.h>
-#include <sys/time.h>
-#include <sys/resource.h>
+
 using namespace std;
 
-void setstack(){
-    // Set soft limit and hard limit to max
-    const rlimit tmp {RLIM_INFINITY,RLIM_INFINITY};
-    setrlimit(RLIMIT_STACK,&tmp);
-}
+#define int ll
+#define vt vector
+#define sz(x) int((x).size())
+#define all(x) (x).begin(), (x).end()
+#define pb push_back
+#define X first
+#define Y second
+#define F X
+#define S Y
+#define fi X
+#define se Y
+#define rep(i, st, n) for (int i = (st); i < (n); ++i)
+#define debug(x) std::cerr << #x << ": " << x << endl
 
-int main(){
-    #define name ""
-    #ifndef FOX
-    freopen(name".in","r",stdin);
-    freopen(name".out","w",stdout);
-    #endif
-    static_assert(strlen(name));
-    ios::sync_with_stdio(0);
-    cin.tie(0), cout.tie(0);
+using ll = long long;
+using pii = pair<int, int>;
+using pll = pii;
+
+int T = 1;
+
+//see T
+void solve() {
+
+}    
+
+signed main() {
+    ios::sync_with_stdio(0), cin.tie(0);
+    cin >> T;
+    rep(tc, 1, T+1) {
+        solve();
+    }
 }
