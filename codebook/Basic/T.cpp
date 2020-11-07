@@ -18,7 +18,7 @@ using namespace std;
 
 using ll = long long;
 using pii = pair<int, int>;
-using pll = pii;
+using pll = pair<ll, ll>;
 
 int T = 1;
 
